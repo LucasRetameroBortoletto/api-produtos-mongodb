@@ -4,6 +4,14 @@ API REST simples para cadastro de produtos, feita com **Node.js**, **Express 5**
 
 Os dados ficam no banco `loja`, na coleção `produtos`.
 
+## Deploy
+
+A API está publicada no Render:
+
+**https://api-produtos-mongodb.onrender.com/produtos**
+
+> O plano gratuito do Render desliga o serviço após um período sem uso. A primeira requisição depois disso pode levar cerca de 50 segundos.
+
 ## Requisitos
 
 - Node.js 18 ou superior
@@ -46,7 +54,9 @@ API rodando na porta 3000
 
 ## Rotas
 
-Base URL: `http://localhost:3000`
+Base URL: `https://api-produtos-mongodb.onrender.com` (produção) ou `http://localhost:3000` (local)
+
+Os exemplos abaixo usam a URL local; para testar em produção, troque pela URL do Render.
 
 | Método | Rota             | Descrição                          |
 |--------|------------------|------------------------------------|
